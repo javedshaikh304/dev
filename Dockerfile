@@ -1,4 +1,4 @@
-FROM tomcat:jdk8
+FROM tomcat:8.5.47-jdk8-openjdk
 RUN apt-get update -y
 MAINTAINER javed
 COPY gameoflife.war /usr/local/tomcat/webapps
